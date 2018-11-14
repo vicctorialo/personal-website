@@ -1,0 +1,40 @@
+@import url("https://fonts.googleapis.com/css?family=Lora:400,700|Montserrat:300|Catamaran:200");
+
+#about {
+  font-size: 11px;
+  font-family: "Lora", serif;
+  background: white;
+  width: 100%;
+  position: relative !important;
+  margin-top: 720px;
+  color: black;
+  padding-bottom: 60px;
+}
+
+#about-header {
+  padding-top: 20px;
+}
+
+.par-intro {
+  font-family: "Catamaran", sans-serif !important;
+  font-size: 26px;
+  padding: 20px 10%;
+  margin: 0;
+  text-align: center;
+}
+
+.myIntro {
+  padding-top: 20px;
+  font-size: 26px;
+}
+
+.par-intro h1 {
+  font-family: "Montserrat", sans-serif !important;
+  text-transform: uppercase !important;
+  font-size: 50px !important;
+  font-weight: 300 !important;
+}
+
+.about p {
+  padding: 20px 15%;
+}

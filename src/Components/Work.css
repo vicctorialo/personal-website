@@ -1,0 +1,138 @@
+@import url("https://fonts.googleapis.com/css?family=Poppins:400,600|Source+Sans+Pro:400,600|Yatra+One");
+
+* {
+  box-sizing: border-box;
+}
+
+.work {
+  background: #e0dfdf !important;
+  color: black;
+  font-family: "Open Sans", sans-serif;
+}
+
+.work-header {
+  text-align: center;
+  padding-top: 50px;
+  font-size: 60px;
+  text-transform: uppercase;
+  font-weight: 500;
+}
+
+.work-title {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  font-family: "Poppins", sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+}
+
+.work-loc {
+  padding-top: 20px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 900;
+  font-size: 35px;
+}
+
+#work-description {
+  padding-top: 20px;
+  text-align: center;
+  font-size: 20px;
+}
+
+.flex-container {
+  display: flex;
+  flex-direction: row;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.inner-flex-container {
+  margin-top: 0px !important;
+}
+
+.flex-container div {
+  text-align: center;
+  flex: 1;
+  margin: 20px;
+  font-size: 20px;
+}
+
+.inner-flex {
+  display: flex;
+  flex-direction: column;
+}
+
+.polar,
+.bmo,
+.aviva {
+  border: 2px solid rgba(85, 83, 83, 0.5);
+  border-radius: 0.5cm;
+  margin-bottom: 10px;
+}
+
+.polar:hover,
+.bmo:hover,
+.aviva:hover {
+  background: rgba(0, 0, 0, 0.6);
+  font-size: 0px;
+  color: white;
+  padding: 20px;
+}
+
+/* POLAR */
+
+.polar:hover:after {
+  content: "Build high quality, scalable, and response native advertisments and demo sites for publisher clients using HTML/CSS, Javascript, JQuery, and Polar API \a \a Spearhead automation of the demo scripting process using Python, which increased time efficiency by 600% \a \a Other tools: \a Python (Django), Git, JIRA";
+  white-space: pre-wrap;
+  font-size: 18px;
+}
+
+.polar .work-title {
+  content: "Software Developer";
+}
+
+.polar:hover .work-title {
+  display: none;
+}
+
+.polar:hover .work-loc {
+  display: none;
+}
+
+/* BMO */
+.bmo:hover:after {
+  content: "Perform aggregation of KPIs across assigned technology portfolios, and present key performance metrics, issues, and risks to CIO and lead technology officers \a \a Improve reporting accuracy, efficiency, and data quality, using advanced Excel features (VBA, macros, pivot tables, vlookup), reducing QA time by 90% \a \a Other tools: VBA, Excel (Macros), SharePoint, TIBCO Spotfire";
+  white-space: pre-wrap;
+  font-size: 18px;
+}
+
+.bmo .work-title {
+  content: "Reporting Analyst/Project Portfolio Management Analyst";
+}
+
+.bmo:hover .work-title {
+  display: none;
+}
+
+.bmo:hover .work-loc {
+  display: none;
+}
+
+/* AVIVA */
+.aviva:hover:after {
+  content: "Interview underwriters, business managers, and project managers to gather, assimilate and document pertinent information for the new Commercial Lines (CL) system (Real Time Gateway 2) \a \a Other tools: JIRA,SharePoint";
+  white-space: pre-wrap;
+  font-size: 18px;
+}
+
+.aviva .work-title {
+  content: "Business Analyst";
+}
+
+.aviva:hover .work-title {
+  display: none;
+}
+
+.aviva:hover .work-loc {
+  display: none;
+}
