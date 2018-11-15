@@ -1,5 +1,7 @@
+@import url("https://fonts.googleapis.com/css?family=Ubuntu:300,400");
+
 .summary {
-  background: rgba(61, 17, 11, 0.8) !important;
+  background: white;
   height: 500px;
 }
 
@@ -8,16 +10,32 @@
   font-size: 50px;
   text-align: center;
   padding-top: 20px;
-  color: white;
+  color: black;
   font-weight: 300;
 }
 
-.summary-point {
+.summary-icon {
   background: white;
   width: 120px;
   height: 120px;
   border-radius: 50%;
-  border: 2px solid #e7e7e7ab;
+  border: 5px solid rgba(100, 26, 16, 0.6);
+  float: left;
+  margin-left: 10px;
+}
+
+.icon {
+  width: 100px;
+  height: 100px;
+}
+
+.summary-point p {
+  float: right;
+  width: 200px;
+  padding-left: 20px;
+  padding-top: 40px;
+  font-size: 15px;
+  font-family: "Ubuntu", sans-serif;
 }
 
 .flex-container-summ {

@@ -3,10 +3,10 @@
 #about {
   font-size: 11px;
   font-family: "Lora", serif;
-  background: white;
+  background: rgba(100, 26, 16, 0.6);
   width: 100%;
   position: relative !important;
-  margin-top: 720px;
+  margin-top: 645px;
   color: black;
   padding-bottom: 60px;
 }
