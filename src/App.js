@@ -4,7 +4,6 @@ import "./App.css";
 import Home from "./Components/Home.jsx";
 import About from "./Components/About.jsx";
 //import Contact from "./Components/Contact";
-//import Resume from "./Components/Resume";
 import Passions from "./Components/Passions.jsx";
 import Work from "./Components/Work.jsx";
 import Summary from "./Components/Summary.jsx";

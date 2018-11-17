@@ -16,6 +16,7 @@
 
 .summary-icon {
   background: white;
+  position: relative;
   width: 120px;
   height: 120px;
   border-radius: 50%;
@@ -24,9 +25,84 @@
   margin-left: 10px;
 }
 
-.icon {
-  width: 100px;
-  height: 100px;
+.fa-book-reader {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  height: 50%;
+  transform: translate(-50%, -50%);
+  display: block;
+  color: rgba(100, 26, 16, 0.6);
+}
+
+.fa-laptop-code {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  height: 50%;
+  transform: translate(-50%, -50%);
+  display: block;
+  color: rgba(100, 26, 16, 0.6);
+}
+
+.fa-briefcase {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  height: 50%;
+  transform: translate(-50%, -50%);
+  display: block;
+  color: rgba(100, 26, 16, 0.6);
+}
+
+.fa-users {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  height: 50%;
+  transform: translate(-50%, -50%);
+  display: block;
+  color: rgba(100, 26, 16, 0.6);
+}
+
+.fa-lightbulb {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  height: 50%;
+  transform: translate(-50%, -50%);
+  display: block;
+  color: rgba(100, 26, 16, 0.6);
+}
+
+.fa-glasses {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  height: 50%;
+  transform: translate(-50%, -50%);
+  display: block;
+  color: rgba(100, 26, 16, 0.6);
+}
+
+.fa-star {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  height: 50%;
+  transform: translate(-50%, -50%);
+  display: block;
+  color: rgba(100, 26, 16, 0.6);
+}
+
+.fa-comments {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  height: 50%;
+  transform: translate(-50%, -50%);
+  display: block;
+  color: rgba(100, 26, 16, 0.6);
 }
 
 .summary-point p {
