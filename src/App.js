@@ -7,6 +7,7 @@ import About from "./Components/About.jsx";
 import Passions from "./Components/Passions.jsx";
 import Work from "./Components/Work.jsx";
 import Summary from "./Components/Summary.jsx";
+import Ecs from "./Components/Ecs.jsx";
 
 //import { Grid, Row, Col } from "react-flexbox-grid";
 
@@ -22,6 +23,7 @@ class App extends Component {
         <Summary />
         <Work />
         <Passions />
+        <Ecs />
       </div>
       //<Router>
 
