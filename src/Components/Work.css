@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css?family=Poppins:400,600|Source+Sans+Pro:400,600|Yatra+One");
+@import url("https://fonts.googleapis.com/css?family=Poppins:400,600|Source+Sans+Pro:400,600|Yatra+One|Source+Sans+Pro");
 
 * {
   box-sizing: border-box;
@@ -65,7 +65,7 @@
 .polar,
 .bmo,
 .aviva {
-  border: 2px solid rgba(85, 83, 83, 0.5);
+  border: 5px solid rgba(100, 26, 16, 0.6);
   border-radius: 0.5cm;
   margin-bottom: 10px;
 }
@@ -77,14 +77,16 @@
   font-size: 0px;
   color: white;
   padding: 20px;
+  border: none;
 }
 
 /* POLAR */
 
 .polar:hover:after {
-  content: "Build high quality, scalable, and response native advertisments and demo sites for publisher clients using HTML/CSS, Javascript, JQuery, and Polar API \a \a Spearhead automation of the demo scripting process using Python, which increased time efficiency by 600% \a \a Other tools: \a Python (Django), Git, JIRA";
+  content: "Build high quality, scalable, and response native advertisments and demo sites for publisher clients using HTML/CSS, Javascript, JQuery, and Polar API \a \a Spearhead automation of the demo scripting process using Python and MySQL, which increased time efficiency by 600% \a \a Other tools: \a Python (Django), Git, JIRA";
   white-space: pre-wrap;
   font-size: 18px;
+  font-family: "Source Sans Pro", sans-serif;
 }
 
 .polar .work-title {
@@ -104,6 +106,7 @@
   content: "Perform aggregation of KPIs across assigned technology portfolios, and present key performance metrics, issues, and risks to CIO and lead technology officers \a \a Improve reporting accuracy, efficiency, and data quality, using advanced Excel features (VBA, macros, pivot tables, vlookup), reducing QA time by 90% \a \a Other tools: VBA, Excel (Macros), SharePoint, TIBCO Spotfire";
   white-space: pre-wrap;
   font-size: 18px;
+  font-family: "Source Sans Pro", sans-serif;
 }
 
 .bmo .work-title {
@@ -123,6 +126,7 @@
   content: "Interview underwriters, business managers, and project managers to gather, assimilate and document pertinent information for the new Commercial Lines (CL) system (Real Time Gateway 2) \a \a Other tools: JIRA,SharePoint";
   white-space: pre-wrap;
   font-size: 18px;
+  font-family: "Source Sans Pro", sans-serif;
 }
 
 .aviva .work-title {
