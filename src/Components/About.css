@@ -3,12 +3,12 @@
 #about {
   font-size: 11px;
   font-family: "Lora", serif;
-  background: #eee;
+  background: #f7f7f7;
   width: 100%;
   position: relative !important;
-  margin-top: 715px;
+  margin-top: 650px;
   color: black;
-  padding-bottom: 60px;
+  padding-bottom: 40px;
 }
 
 #about-header {
