@@ -22,8 +22,8 @@ class App extends Component {
         <About />
         <Summary />
         <Work />
-        <Passions />
         <Ecs />
+        <Passions />
       </div>
       //<Router>
 
