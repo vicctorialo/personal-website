@@ -1,5 +1,62 @@
+.ecs-title {
+  font-size: 50px;
+  text-transform: uppercase;
+  text-align: center;
+  padding-top: 30px;
+}
+
+.ecs-container {
+  display: flex;
+  flex-direction: row;
+  padding-top: 20px;
+  padding-bottom: 40px;
+}
+
 .rtc-image {
-  background-image: url("../Images/rtc.png");
-  height: 60px;
-  width: 150px;
+  content: url("../Images/rtc.png");
+  padding-left: 50px;
+  height: 200px;
+  width: 350px;
+  float: left;
+}
+
+.ms-image {
+  content: url("../Images/ms.png");
+  padding-left: 50px;
+  height: 200px;
+  width: 350px;
+  float: right;
+}
+
+.ecs-button {
+  width: 125px;
+  height: 40px;
+  margin-top: 10px;
+  border: 2px solid black;
+  border-radius: 10px;
+}
+
+.ecs-header {
+  float: left;
+  padding-left: 20px;
+}
+
+.ecs-context-rf {
+  flex: 2;
+  font-size: 17px;
+  width: 60%;
+  float: right;
+  margin-top: -10px;
+  padding-right: 50px;
+  padding-left: 50px;
+}
+
+.ecs-context-lf {
+  flex: 2;
+  font-size: 17px;
+  width: 60%;
+  float: left;
+  margin-top: -10px;
+  padding-right: 50px;
+  padding-left: 50px;
 }
