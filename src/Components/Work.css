@@ -5,9 +5,10 @@
 }
 
 .work {
-  background: #e0dfdf !important;
+  background: #f7f7f7 !important;
   color: black;
   font-family: "Open Sans", sans-serif;
+  padding-bottom: 20px;
 }
 
 .work-header {
@@ -83,7 +84,7 @@
 /* POLAR */
 
 .polar:hover:after {
-  content: "Build high quality, scalable, and response native advertisments and demo sites for publisher clients using HTML/CSS, Javascript, JQuery, and Polar API \a \a Spearhead automation of the demo scripting process using Python and MySQL, which increased time efficiency by 600% \a \a Other tools: \a Python (Django), Git, JIRA";
+  content: "Design, implement, and spearhead the automation process of Polar’s site preview product using Python (Django), reducing workflow process duration from 2 hours to 10 minutes \a \a Build high quality, scalable, and response native advertisments and demo sites for publisher clients using HTML/CSS, Javascript, JQuery, and Polar API \a \a Other tools: \a Python (Django), Git, JIRA";
   white-space: pre-wrap;
   font-size: 18px;
   font-family: "Source Sans Pro", sans-serif;
