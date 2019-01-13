@@ -1,3 +1,8 @@
+#ecs,
+h1 {
+  font-family: "Open Sans", sans-serif;
+}
+
 .ecs-title {
   font-size: 50px;
   text-transform: uppercase;
@@ -8,8 +13,8 @@
 .ecs-container {
   display: flex;
   flex-direction: row;
-  padding-top: 20px;
-  padding-bottom: 40px;
+  padding-top: 60px;
+  padding-bottom: 60px;
 }
 
 .rtc-image {
@@ -25,7 +30,7 @@
   padding-left: 50px;
   height: 200px;
   width: 350px;
-  float: right;
+  float: left;
 }
 
 .ecs-button {
@@ -34,6 +39,7 @@
   margin-top: 10px;
   border: 2px solid black;
   border-radius: 10px;
+  text-decoration: none;
 }
 
 .ecs-header {
@@ -41,7 +47,7 @@
   padding-left: 20px;
 }
 
-.ecs-context-rf {
+.ecs-context {
   flex: 2;
   font-size: 17px;
   width: 60%;
@@ -51,12 +57,8 @@
   padding-left: 50px;
 }
 
-.ecs-context-lf {
-  flex: 2;
+.ecs-context p {
   font-size: 17px;
-  width: 60%;
-  float: left;
-  margin-top: -10px;
-  padding-right: 50px;
-  padding-left: 50px;
+  font-weight: 300;
+  color: #454545;
 }

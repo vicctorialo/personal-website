@@ -23,7 +23,7 @@ class Home extends Component {
             </div>
             <div className="huge ui inverted animated button" role="button">
               <div className="visible content" id="my-button">
-                Learn More!
+                Contact Me!
               </div>
               <div className="hidden content">
                 <i className="smile outline icon" />

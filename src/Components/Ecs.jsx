@@ -10,7 +10,7 @@ class Ecs extends Component {
           <div className="ecs-header">
             <div className="rtc-image" />
           </div>
-          <div className="ecs-context-rf">
+          <div className="ecs-context">
             <h1> Rewriting the Code</h1>
             <p>
               I was selected for a competitive international fellowship for
@@ -30,7 +30,7 @@ class Ecs extends Component {
           <div className="ecs-header">
             <div className="ms-image" />
           </div>
-          <div className="ecs-context-lf">
+          <div className="ecs-context">
             <h1> Mathematics Society - MathBall Executive Team</h1>
             <p>
               MathBall is a formal event organized by students of the math

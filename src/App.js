@@ -3,11 +3,12 @@ import "./App.css";
 //import { Router, Route } from "react-router-dom";
 import Home from "./Components/Home.jsx";
 import About from "./Components/About.jsx";
-//import Contact from "./Components/Contact";
+// import Contact from "./Components/Contact";
 import Passions from "./Components/Passions.jsx";
 import Work from "./Components/Work.jsx";
 import Summary from "./Components/Summary.jsx";
 import Ecs from "./Components/Ecs.jsx";
+import Footer from "./Components/Footer.jsx";
 
 //import { Grid, Row, Col } from "react-flexbox-grid";
 
@@ -24,6 +25,8 @@ class App extends Component {
         <Work />
         <Ecs />
         <Passions />
+        {/* <Contact /> */}
+        <Footer />
       </div>
       //<Router>
 
