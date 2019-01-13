@@ -23,22 +23,17 @@ body {
 
 .flex-container-passions > div {
   flex: 1 1 auto;
-  border: 2px red black;
+  box-shadow: 0 6px 100px 0 rgba(0, 0, 0, 0.19);
+  border-radius: 10px;
   text-align: center;
   margin: 20px;
   padding: 10px 20px;
 }
 
-.passions-coding {
-  background-color: #c2d7eb;
-}
-
-.passions-sports {
-  background: #cceace;
-}
-
+.passions-coding,
+.passions-sports,
 .passions-travel {
-  background: #ead0cc;
+  background-color: rgba(100, 26, 16, 0.45);
 }
 
 #passions-title {
