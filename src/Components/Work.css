@@ -28,7 +28,7 @@
 }
 
 .work-loc {
-  padding-top: 20px;
+  padding-top: 80px;
   font-family: "Poppins", sans-serif;
   font-weight: 900;
   font-size: 35px;
@@ -69,6 +69,7 @@
   border: 5px solid rgba(100, 26, 16, 0.6);
   border-radius: 0.5cm;
   margin-bottom: 10px;
+  height: 320px;
 }
 
 .polar:hover,
@@ -84,7 +85,7 @@
 /* POLAR */
 
 .polar:hover:after {
-  content: "Design, implement, and spearhead the automation process of Polar’s site preview product using Python (Django), reducing workflow process duration from 2 hours to 10 minutes \a \a Build high quality, scalable, and response native advertisments and demo sites for publisher clients using HTML/CSS, Javascript, JQuery, and Polar API \a \a Other tools: \a Python (Django), Git, JIRA";
+  content: "Design, implement, and spearhead the automation process of Polar’s site preview product using Python (Django), reducing workflow process duration from 2 hours to 10 minutes \a \a Build high quality, scalable, and response native advertisments and demo sites for publisher clients using HTML/CSS, Javascript, JQuery, and Polar API \a \a Other tools: \a MySQL, Git, JIRA";
   white-space: pre-wrap;
   font-size: 18px;
   font-family: "Source Sans Pro", sans-serif;
