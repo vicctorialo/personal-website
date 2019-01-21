@@ -2,7 +2,6 @@
 
 .summary {
   background: white;
-  height: 500px;
   padding-top: 30px;
   padding-bottom: 50px;
 }
@@ -16,95 +15,21 @@
   font-weight: 300;
 }
 
-.summary-icon {
-  background: white;
-  position: relative;
-  width: 120px;
-  height: 120px;
-  border-radius: 50%;
-  border: 5px solid rgba(100, 26, 16, 0.6);
-  float: left;
-  margin-left: 10px;
+.flex-container-summ {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  height: auto;
+  justify-content: space-around;
+  flex-flow: wrap;
+  padding-top: 20px;
+  padding-bottom: 40px;
 }
 
-.fa-book-reader {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  height: 50%;
-  transform: translate(-50%, -50%);
-  display: block;
-  color: rgba(100, 26, 16, 0.6);
-}
-
-.fa-laptop-code {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  height: 50%;
-  transform: translate(-50%, -50%);
-  display: block;
-  color: rgba(100, 26, 16, 0.6);
-}
-
-.fa-briefcase {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  height: 50%;
-  transform: translate(-50%, -50%);
-  display: block;
-  color: rgba(100, 26, 16, 0.6);
-}
-
-.fa-users {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  height: 50%;
-  transform: translate(-50%, -50%);
-  display: block;
-  color: rgba(100, 26, 16, 0.6);
-}
-
-.fa-lightbulb {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  height: 50%;
-  transform: translate(-50%, -50%);
-  display: block;
-  color: rgba(100, 26, 16, 0.6);
-}
-
-.fa-glasses {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  height: 50%;
-  transform: translate(-50%, -50%);
-  display: block;
-  color: rgba(100, 26, 16, 0.6);
-}
-
-.fa-star {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  height: 50%;
-  transform: translate(-50%, -50%);
-  display: block;
-  color: rgba(100, 26, 16, 0.6);
-}
-
-.fa-comments {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  height: 50%;
-  transform: translate(-50%, -50%);
-  display: block;
-  color: rgba(100, 26, 16, 0.6);
+.summary-point {
+  width: 23%;
+  height: auto;
+  box-sizing: border-box;
 }
 
 .summary-point p {
@@ -116,11 +41,75 @@
   font-family: "Ubuntu", sans-serif;
 }
 
-.flex-container-summ {
-  display: flex;
-  flex-direction: row;
-  width: 100%;
-  justify-content: space-around;
-  padding-top: 20px;
-  padding-bottom: 40px;
+.summary-point .summary-icon {
+  background: white;
+  position: relative;
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  border: 5px solid rgba(100, 26, 16, 0.6);
+  float: left;
+  margin-left: 10px;
+}
+
+.fa-book-reader,
+.fa-laptop-code,
+.fa-briefcase,
+.fa-users,
+.fa-lightbulb,
+.fa-glasses,
+.fa-star,
+.fa-comments {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  height: 50%;
+  transform: translate(-50%, -50%);
+  display: block;
+  color: rgba(100, 26, 16, 0.6);
+}
+
+@media screen and (min-width: 375px) and (max-width: 412px) {
+  #why-me {
+    font-size: 35px;
+  }
+
+  .flex-container-summ {
+    padding-top: 0;
+    padding-bottom: 0;
+  }
+
+  .summary-point {
+    width: 100%;
+  }
+
+  .summary-point .summary-icon {
+    width: 100px;
+    height: 100px;
+    margin: 10px 0 10px 30px;
+  }
+
+  .fa-book-reader:before,
+  .fa-laptop-code:before,
+  .fa-briefcase:before,
+  .fa-users:before,
+  .fa-lightbulb:before,
+  .fa-glasses:before,
+  .fa-star:before,
+  .fa-comments:before {
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    height: 50%;
+    transform: translate(-50%, -50%);
+    display: block;
+    color: rgba(100, 26, 16, 0.6);
+    font-size: 40px;
+  }
+
+  .summary-point p {
+    padding-left: 0;
+    width: 220px;
+    padding-right: 20px;
+  }
 }
