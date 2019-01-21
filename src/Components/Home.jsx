@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import "./Home.css";
-import Typed from "react-typed";
+import Typed from "../../react-typed";
 
 class Home extends Component {
   render() {
@@ -21,14 +21,9 @@ class Home extends Component {
                 loop
               />
             </div>
-            <div className="huge ui inverted animated button" role="button">
-              <div className="visible content" id="my-button">
-                Contact Me!
-              </div>
-              <div className="hidden content">
-                <i className="smile outline icon" />
-              </div>
-            </div>
+            <button type="button" className="btn btn-outline-secondary btn-lg">
+              <a href="#contact-btn">CONTACT ME</a>
+            </button>
           </div>
         </div>
       </div>
