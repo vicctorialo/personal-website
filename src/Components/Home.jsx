@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import "./Home.css";
-import Typed from "../../react-typed";
+import Typed from "react-typed";
 
 class Home extends Component {
   render() {
