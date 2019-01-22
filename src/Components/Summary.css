@@ -72,6 +72,7 @@
 @media screen and (min-width: 375px) and (max-width: 412px) {
   #why-me {
     font-size: 35px;
+    padding-top: 0;
   }
 
   .flex-container-summ {
@@ -86,7 +87,7 @@
   .summary-point .summary-icon {
     width: 100px;
     height: 100px;
-    margin: 10px 0 10px 30px;
+    margin: 10px 0 10px 45px;
   }
 
   .fa-book-reader:before,
@@ -108,7 +109,7 @@
   }
 
   .summary-point p {
-    padding-left: 0;
+    padding-left: 15px;
     width: 220px;
     padding-right: 20px;
   }
