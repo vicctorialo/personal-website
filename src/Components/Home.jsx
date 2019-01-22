@@ -22,7 +22,7 @@ class Home extends Component {
               />
             </div>
             <button type="button" className="btn btn-outline-secondary btn-lg">
-              <a href="#contact-btn">CONTACT ME</a>
+              <a href="mailto:victorialo398@hotmail.com">CONTACT ME</a>
             </button>
           </div>
         </div>
