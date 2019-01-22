@@ -30,7 +30,7 @@ class Ecs extends Component {
           <div className="ecs-header">
             <div className="ms-image" />
           </div>
-          <div className="ecs-context">
+          <div className="ecs-context context-math">
             <h1> Mathematics Society - MathBall Executive Team</h1>
             <p>
               MathBall is a formal event organized by students of the math
