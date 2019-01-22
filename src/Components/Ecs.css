@@ -4,6 +4,7 @@ h1 {
 }
 
 .ecs-title {
+  font-family: "Open Sans", sans-serif;
   font-size: 50px;
   text-transform: uppercase;
   text-align: center;
@@ -34,12 +35,17 @@ h1 {
 }
 
 .ecs-button {
+  color: black;
   width: 125px;
   height: 40px;
   margin-top: 10px;
   border: 2px solid black;
   border-radius: 10px;
   text-decoration: none;
+}
+
+.ecs-button a {
+  color: inherit;
 }
 
 .ecs-header {
@@ -61,4 +67,8 @@ h1 {
   font-size: 17px;
   font-weight: 300;
   color: #454545;
+}
+
+.context-math {
+  padding-top: 40px;
 }
