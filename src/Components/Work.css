@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css?family=Poppins:400,600|Source+Sans+Pro:400,600|Yatra+One|Source+Sans+Pro");
+@import url("https://fonts.googleapis.com/css?family=Poppins:400,600|Source+Sans+Pro:400,600|Yatra+One|Source+Sans+Pro|Catamaran:400,600,700,800");
 
 * {
   box-sizing: border-box;
@@ -22,54 +22,53 @@
 .work-title {
   padding-top: 30px;
   padding-bottom: 30px;
-  font-family: "Poppins", sans-serif;
-  font-size: 20px;
+  font-family: "Catamaran", sans-serif;
+  font-size: 24px;
   font-weight: 400;
 }
 
 .work-loc {
   padding-top: 80px;
-  font-family: "Poppins", sans-serif;
-  font-weight: 900;
-  font-size: 35px;
+  font-family: "Catamaran", sans-serif;
+  font-weight: 700;
+  font-size: 45px;
 }
 
 #work-description {
+  color: rgba(117, 117, 117, 0.8);
   padding-top: 20px;
   text-align: center;
   font-size: 20px;
 }
 
-.flex-container {
+.flex-container-work {
   display: flex;
   flex-direction: row;
-  padding-top: 30px;
-  padding-bottom: 30px;
+  width: 100%;
+  height: auto;
+  flex-flow: wrap;
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
 
 .inner-flex-container {
   margin-top: 0px !important;
 }
 
-.flex-container div {
+.flex-container-work div {
   text-align: center;
   flex: 1;
   margin: 20px;
   font-size: 20px;
+  border: 5px solid rgba(100, 26, 16, 0.6);
+  border-radius: 0.5cm;
+  margin-bottom: 10px;
+  height: 300px;
 }
 
 .inner-flex {
   display: flex;
   flex-direction: column;
-}
-
-.polar,
-.bmo,
-.aviva {
-  border: 5px solid rgba(100, 26, 16, 0.6);
-  border-radius: 0.5cm;
-  margin-bottom: 10px;
-  height: 320px;
 }
 
 .polar:hover,
@@ -85,14 +84,15 @@
 /* POLAR */
 
 .polar:hover:after {
-  content: "Design, implement, and spearhead the automation process of Polar’s site preview product using Python (Django), reducing workflow process duration from 2 hours to 10 minutes \a \a Build high quality, scalable, and response native advertisments and demo sites for publisher clients using HTML/CSS, Javascript, JQuery, and Polar API \a \a Other tools: \a MySQL, Git, JIRA";
+  content: "Design, implement, and spearhead the automation process of Polar’s site preview product using Python (Django), reducing workflow process duration from 2 hours to 10 minutes \a \a Build high quality, scalable, and response native advertisments and demo sites for publisher clients using HTML/CSS, Javascript, JQuery, and Polar API \a \a Other tools: \a MySQL, Git";
   white-space: pre-wrap;
-  font-size: 18px;
-  font-family: "Source Sans Pro", sans-serif;
+  font-size: 17px;
+  font-family: "Catamaran", sans-serif;
 }
 
 .polar .work-title {
   content: "Software Developer";
+  margin: 0;
 }
 
 .polar:hover .work-title {
@@ -107,12 +107,13 @@
 .bmo:hover:after {
   content: "Perform aggregation of KPIs across assigned technology portfolios, and present key performance metrics, issues, and risks to CIO and lead technology officers \a \a Improve reporting accuracy, efficiency, and data quality, using advanced Excel features (VBA, macros, pivot tables, vlookup), reducing QA time by 90% \a \a Other tools: VBA, Excel (Macros), SharePoint, TIBCO Spotfire";
   white-space: pre-wrap;
-  font-size: 18px;
-  font-family: "Source Sans Pro", sans-serif;
+  font-size: 17px;
+  font-family: "Catamaran", sans-serif;
 }
 
 .bmo .work-title {
-  content: "Reporting Analyst/Project Portfolio Management Analyst";
+  content: "Reporting Data Analyst";
+  margin-top: 0;
 }
 
 .bmo:hover .work-title {
@@ -125,10 +126,10 @@
 
 /* AVIVA */
 .aviva:hover:after {
-  content: "Interview underwriters, business managers, and project managers to gather, assimilate and document pertinent information for the new Commercial Lines (CL) system (Real Time Gateway 2) \a \a Other tools: JIRA,SharePoint";
+  content: "Interview underwriters, business managers, and project managers to gather, assimilate and document pertinent information for the new Commercial Lines (CL) system (Real Time Gateway 2) \a \a Followed agile methodolgy on all projects and used JIRA for tracking and project managament - consistenly met deadlines 1 week earlier \a \a Compared and integrated rating basis data from Lotus and SharePoint platforms";
   white-space: pre-wrap;
-  font-size: 18px;
-  font-family: "Source Sans Pro", sans-serif;
+  font-size: 17px;
+  font-family: "Catamaran", sans-serif;
 }
 
 .aviva .work-title {
@@ -141,4 +142,31 @@
 
 .aviva:hover .work-loc {
   display: none;
+}
+
+@media screen and (min-width: 375px) and (max-width: 412px) {
+  .work-header {
+    font-size: 35px;
+    padding: 35px 5px 0 5px;
+  }
+
+  #work-description {
+    font-size: 14px;
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+
+  .flex-container-work div {
+    flex: none;
+    width: 90%;
+    height: auto;
+  }
+
+  .flex-container-work {
+    padding-top: 0;
+  }
+
+  .work-mobile #work-description {
+    display: none;
+  }
 }
