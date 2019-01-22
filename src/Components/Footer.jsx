@@ -4,13 +4,13 @@ import "./Footer.css";
 class Footer extends Component {
   render() {
     return (
-      <div className="footer">
-        <h1>Connect with me:</h1>
+      <div className="footer" id="contact-btn">
+        <h1>Connect with me!</h1>
         <div className="social">
-          <a href="www.linkedin.com/in/victoria-lo98">
+          <a href="https://www.linkedin.com/in/victoria-lo98">
             <i className="fab fa-linkedin fa-2x" />{" "}
           </a>
-          <a href="www.github.com/vicctorialo">
+          <a href="https://www.github.com/vicctorialo">
             <i className="fab fa-github fa-2x" />{" "}
           </a>
           <a href="mailto:victorialo398@hotmail.com">
@@ -18,7 +18,7 @@ class Footer extends Component {
           </a>
         </div>
         <p id="copyright">
-          Designed and Made by Victoria Lo | © Copyright 2018{" "}
+          Designed and Created by Victoria Lo | © Copyright 2018{" "}
         </p>
       </div>
     );
