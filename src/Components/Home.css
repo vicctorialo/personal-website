@@ -38,6 +38,7 @@
   font-family: "Montserrat", sans-serif;
   color: rgba(247, 243, 243, 0.9);
   padding-top: 50px;
+  font-weight: 600;
 }
 
 ul {
@@ -75,4 +76,28 @@ li a:hover {
   margin-top: -10%;
   padding-top: 60px;
   padding-bottom: 100px;
+}
+
+button a {
+  color: white;
+  text-decoration: none;
+}
+
+button a:hover {
+  color: white;
+  text-decoration: none;
+}
+
+@media screen and (min-width: 375px) and (max-width: 413px) {
+  .intro h1 {
+    font-size: 50px;
+  }
+
+  #types {
+    font-size: 20px;
+  }
+
+  button a {
+    font-size: 12px;
+  }
 }
