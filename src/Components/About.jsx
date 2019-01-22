@@ -17,7 +17,7 @@ class About extends Component {
             <strong> full-stack web development</strong>.
             <p class="myIntro">
               Please continue scrolling to learn more about my work experience,
-              my interests, and my projects!{" "}
+              involvements, and my interests!{" "}
             </p>
           </p>
         </div>
