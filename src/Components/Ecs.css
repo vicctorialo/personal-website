@@ -48,6 +48,10 @@ h1 {
   color: inherit;
 }
 
+.ecs-button a:hover {
+  color: black;
+}
+
 .ecs-header {
   float: left;
   padding-left: 20px;
