@@ -7,10 +7,10 @@ class Footer extends Component {
       <div className="footer" id="contact-btn">
         <h1>Connect with me!</h1>
         <div className="social">
-          <a href="https://www.linkedin.com/in/victoria-lo98">
+          <a href="https://www.linkedin.com/in/victoria-lo98" target="_blank">
             <i className="fab fa-linkedin fa-2x" />{" "}
           </a>
-          <a href="https://www.github.com/vicctorialo">
+          <a href="https://www.github.com/vicctorialo" target="_blank">
             <i className="fab fa-github fa-2x" />{" "}
           </a>
           <a href="mailto:victorialo398@hotmail.com">
