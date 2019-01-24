@@ -18,8 +18,8 @@ class Ecs extends Component {
               Fellow, I have the opportunity to participate in tech workshops
               led by fellow members, explore different areas of tech such as
               Product management, Fintech, Virtual Reality, and Web/Mobile
-              Developmentconnect, and connect with like-minded individuals all
-              over North America.
+              Development, and connect with like-minded individuals all over
+              North America.
             </p>
             <button className="ecs-button">
               <a href="https://rewritingthecode.org/">Learn More </a>
