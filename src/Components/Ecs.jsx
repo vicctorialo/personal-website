@@ -22,7 +22,13 @@ class Ecs extends Component {
               North America.
             </p>
             <button className="ecs-button">
-              <a href="https://rewritingthecode.org/">Learn More </a>
+              <a
+                href="https://rewritingthecode.org/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Learn More{" "}
+              </a>
             </button>
           </div>
         </div>
