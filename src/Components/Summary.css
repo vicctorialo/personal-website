@@ -35,7 +35,7 @@
 .summary-point p {
   float: right;
   width: 200px;
-  padding-left: 20px;
+  padding-left: 5%;
   padding-top: 40px;
   font-size: 15px;
   font-family: "Ubuntu", sans-serif;
@@ -112,5 +112,16 @@
     padding-left: 15px;
     width: 220px;
     padding-right: 20px;
+  }
+}
+
+/* FOR LARGER DESKTOPS */
+@media screen and (min-width: 1600px) {
+  .summary-point {
+    width: 20%;
+  }
+
+  .summary-point .summary-icon {
+    margin-left: 40px;
   }
 }
