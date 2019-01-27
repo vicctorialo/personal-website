@@ -11,15 +11,15 @@ class Work extends Component {
           Hover to learn more about some of the things I did on the job!
         </p>
         <div className="flex-container-work">
-          <div className="polar">
+          <div className="polar work-block">
             <h1 className="work-loc">Polar</h1>
             <h3 className="work-title">Software Developer</h3>
           </div>
-          <div className="bmo">
+          <div className="bmo work-block">
             <h1 className="work-loc">BMO</h1>
             <h3 className="work-title">Reporting Data Analyst</h3>
           </div>
-          <div className="aviva">
+          <div className="aviva work-block">
             <h1 className="work-loc">Aviva</h1>
             <h3 className="work-title">Business Analyst</h3>
           </div>
