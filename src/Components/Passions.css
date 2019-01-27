@@ -15,7 +15,6 @@ body {
 }
 
 .flex-container-passions {
-  margin: 20px;
   display: flex;
   flex-direction: row;
   padding: 10px 20px 40px 20px;
@@ -23,17 +22,17 @@ body {
 
 .flex-container-passions > div {
   flex: 1 1 auto;
-  box-shadow: 0 6px 100px 0 rgba(0, 0, 0, 0.19);
+  box-shadow: 0 6px 50px 0 rgba(0, 0, 0, 0.19);
   border-radius: 10px;
   text-align: center;
   margin: 20px;
   padding: 10px 20px;
 }
 
-.passions-coding,
-.passions-sports,
-.passions-travel {
+.passions-block {
   background-color: rgba(100, 26, 16, 0.45);
+  display: flex;
+  flex-direction: column;
 }
 
 #passions-title {
@@ -53,8 +52,10 @@ body {
 }
 
 .passions-desc {
-  padding: 10px 20px;
-  height: 150px;
+  position: relative;
+  margin-top: 5%;
+  padding: 0 20px 10px 20px;
+  height: 80%;
 }
 .passions-item {
   border: 2px solid black;
