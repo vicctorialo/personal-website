@@ -55,7 +55,7 @@
   margin-top: 0px !important;
 }
 
-.flex-container-work div {
+.flex-container-work .work-block {
   text-align: center;
   flex: 1;
   margin: 20px;
@@ -71,23 +71,39 @@
   flex-direction: column;
 }
 
-.polar:hover,
-.bmo:hover,
-.aviva:hover {
+.work-block:hover {
   background: rgba(0, 0, 0, 0.6);
   font-size: 0px;
   color: white;
   padding: 20px;
   border: none;
+  display: flex;
 }
 
+.work-block:hover:after {
+  text-align: center;
+  font-size: 17px;
+  line-height: 25px;
+  margin: auto;
+}
+
+.work-block:after {
+  white-space: pre-wrap;
+  font-size: 17px;
+  font-family: "Catamaran", sans-serif;
+}
+
+.work-block:hover .work-title {
+  display: none;
+}
+
+.work-block:hover .work-loc {
+  display: none;
+}
 /* POLAR */
 
 .polar:hover:after {
   content: "Design, implement, and spearhead the automation process of Polar’s site preview product using Python (Django), reducing workflow process duration from 2 hours to 10 minutes \a \a Build high quality, scalable, and responsive native advertisments and demo sites for publisher clients using HTML/CSS, Javascript, JQuery, and Polar API \a \a Other tools: \a MySQL, Git";
-  white-space: pre-wrap;
-  font-size: 17px;
-  font-family: "Catamaran", sans-serif;
 }
 
 .polar .work-title {
@@ -95,20 +111,9 @@
   margin: 0;
 }
 
-.polar:hover .work-title {
-  display: none;
-}
-
-.polar:hover .work-loc {
-  display: none;
-}
-
 /* BMO */
 .bmo:hover:after {
   content: "Perform aggregation of KPIs across assigned technology portfolios, and present key performance metrics, issues, and risks to CIO and lead technology officers \a \a Improve reporting accuracy, efficiency, and data quality, using advanced Excel features (VBA, macros, pivot tables, vlookup), reducing QA time by 90% \a \a Other tools: VBA, Excel (Macros), SharePoint, TIBCO Spotfire";
-  white-space: pre-wrap;
-  font-size: 17px;
-  font-family: "Catamaran", sans-serif;
 }
 
 .bmo .work-title {
@@ -116,32 +121,13 @@
   margin-top: 0;
 }
 
-.bmo:hover .work-title {
-  display: none;
-}
-
-.bmo:hover .work-loc {
-  display: none;
-}
-
 /* AVIVA */
 .aviva:hover:after {
   content: "Interview underwriters, business managers, and project managers to gather, assimilate and document pertinent information for the new Commercial Lines (CL) system (Real Time Gateway 2) \a \a Followed agile methodolgy on all projects and used JIRA for tracking and project managament - consistently met deadlines 1 week earlier \a \a Compared and integrated rating basis data from Lotus and SharePoint platforms";
-  white-space: pre-wrap;
-  font-size: 17px;
-  font-family: "Catamaran", sans-serif;
 }
 
 .aviva .work-title {
   content: "Business Analyst";
-}
-
-.aviva:hover .work-title {
-  display: none;
-}
-
-.aviva:hover .work-loc {
-  display: none;
 }
 
 @media screen and (min-width: 375px) and (max-width: 412px) {
@@ -168,5 +154,15 @@
 
   .work-mobile #work-description {
     display: none;
+  }
+}
+
+/* FOR LARGER DESKTOPS */
+@media screen and (min-width: 1600px) {
+  .work-block:hover:after {
+    text-align: center;
+    font-size: 20px;
+    line-height: 25px;
+    margin: auto;
   }
 }
