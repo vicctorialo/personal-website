@@ -7,7 +7,7 @@ class Passions extends Component {
       <div className="passions">
         <p id="passions-title"> What I Enjoy Doing</p>
         <div className="flex-container-passions">
-          <div className="passions-coding">
+          <div className="passions-block">
             <h1 className="passions-category">Coding</h1>
             <div className="passions-desc">
               <p>
@@ -17,7 +17,7 @@ class Passions extends Component {
               </p>
             </div>
           </div>
-          <div className="passions-sports">
+          <div className="passions-block">
             <h1 className="passions-category">Sports</h1>
             <div className="passions-desc">
               <p>
@@ -27,7 +27,7 @@ class Passions extends Component {
               </p>
             </div>
           </div>
-          <div className="passions-travel">
+          <div className="passions-block">
             <h1 className="passions-category">Travel</h1>
             <div className="passions-desc">
               <p>
