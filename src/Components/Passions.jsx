@@ -5,7 +5,7 @@ class Passions extends Component {
   render() {
     return (
       <div className="passions">
-        <p id="passions-title"> What I Enjoy Doing</p>
+        <p className="passions-title"> What I Enjoy Doing</p>
         <div className="flex-container-passions">
           <div className="passions-block">
             <h1 className="passions-category">Coding</h1>
