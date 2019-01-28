@@ -4,7 +4,7 @@ import "./Ecs.css";
 class Ecs extends Component {
   render() {
     return (
-      <div id="ecs">
+      <div className="ecs">
         <h1 className="ecs-title">My Current Involvements</h1>
         <div className="rtc ecs-container">
           <div className="ecs-header">
