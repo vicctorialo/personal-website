@@ -8,7 +8,7 @@ class Ecs extends Component {
         <h1 className="ecs-title">My Current Involvements</h1>
         <div className="rtc ecs-container">
           <div className="ecs-header">
-            <div className="rtc-image" />
+            <div id="rtc-image" />
           </div>
           <div className="ecs-context">
             <h1> Rewriting the Code</h1>
@@ -34,7 +34,7 @@ class Ecs extends Component {
         </div>
         <div className="ms ecs-container">
           <div className="ecs-header">
-            <div className="ms-image" />
+            <div id="ms-image" />
           </div>
           <div className="ecs-context context-math">
             <h1> Mathematics Society - MathBall Executive Team</h1>
