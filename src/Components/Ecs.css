@@ -1,10 +1,8 @@
-#ecs,
-h1 {
-  font-family: "Open Sans", sans-serif;
+.ecs h1 {
+  font-family: "Open Sans", sans-serif !important;
 }
 
 .ecs-title {
-  font-family: "Open Sans", sans-serif;
   font-size: 50px;
   text-transform: uppercase;
   text-align: center;
