@@ -24,7 +24,7 @@ class Work extends Component {
                 </li>
                 <li>
                   Build high quality, scalable, and responsive native
-                  advertisments and demo sites for publisher clients using
+                  advertisments and demo sites for publisher clients using{" "}
                   <b>HTML/CSS, Javascript, JQuery, and Polar API </b>{" "}
                 </li>
                 <li>Other tools: MySQL, Git</li>
