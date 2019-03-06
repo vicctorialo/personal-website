@@ -1,14 +1,13 @@
-@import url("https://fonts.googleapis.com/css?family=M+PLUS+Rounded+1c:800|Sawarabi+Gothic");
 @import url("https://fonts.googleapis.com/css?family=Montserrat:400,600");
 
-#home {
+.home {
   background-image: url("../Images/background2.jpg");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
   font-size: 11px;
   color: white;
-  font-family: "Lora", serif;
+  font-family: "Montserrat", serif;
   position: absolute !important;
   top: 0 !important;
   right: 0 !important;
@@ -35,25 +34,25 @@
 
 .intro h1 {
   font-size: 105px;
-  font-family: "Montserrat", sans-serif;
   color: rgba(247, 243, 243, 0.9);
   padding-top: 50px;
   font-weight: 600;
+  letter-spacing: 5px;
 }
 
 #types {
   color: rgb(250, 246, 246);
   font-size: 30px;
   text-transform: none;
-  letter-spacing: 2px;
   margin-top: -10%;
   padding-top: 80px;
   padding-bottom: 100px;
 }
 
-button a {
+.home button a {
   color: white;
   text-decoration: none;
+  letter-spacing: 2px;
 }
 
 button a:hover {

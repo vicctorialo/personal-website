@@ -38,12 +38,12 @@ body {
 .passions-title {
   text-align: center !important;
   text-transform: uppercase;
-  font-size: 45px;
-  padding-top: 40px;
+  font-size: 50px;
+  padding-top: 50px;
   margin: 0 !important;
   color: rgb(8, 8, 8);
   opacity: 1;
-  font-weight: 400;
+  font-weight: 300;
 }
 
 .passions-category {
@@ -67,7 +67,7 @@ body {
 
   .passions-title {
     font-size: 35px;
-    padding: 20px 20px 0 20px;
+    padding: 35px 20px 0 20px;
   }
 
   .passions-category {

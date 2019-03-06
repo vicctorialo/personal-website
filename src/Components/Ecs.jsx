@@ -10,7 +10,7 @@ class Ecs extends Component {
           <div className="ecs-header">
             <div id="rtc-image" />
           </div>
-          <div className="ecs-context">
+          <div className="ecs-context context-rtc">
             <h1> Rewriting the Code</h1>
             <p>
               I was selected for a competitive international fellowship for

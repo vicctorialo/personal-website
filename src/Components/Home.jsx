@@ -5,7 +5,7 @@ import Typed from "react-typed";
 class Home extends Component {
   render() {
     return (
-      <div id="home">
+      <div className="home">
         <div className="overlay">
           <div className="intro">
             <h1>Victoria Lo</h1>

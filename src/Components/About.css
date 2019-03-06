@@ -1,6 +1,6 @@
 @import url("https://fonts.googleapis.com/css?family=Lora:400,700|Montserrat:300|Catamaran:200");
 
-#about {
+.about {
   font-size: 11px;
   font-family: "Lora", serif;
   background: #f7f7f7;
@@ -20,7 +20,7 @@
   font-family: "Catamaran", sans-serif !important;
   font-size: 20px;
   font-weight: 200;
-  padding: 20px 10%;
+  padding: 20px 100px;
   margin: 0;
   text-align: center;
 }
@@ -37,12 +37,8 @@
   font-weight: 300 !important;
 }
 
-.about p {
-  padding: 20px 15%;
-}
-
 @media screen and (min-width: 375px) and (max-width: 413px) {
-  #about {
+  .about {
     margin-top: 580px;
   }
 

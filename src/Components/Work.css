@@ -16,7 +16,7 @@
   padding-top: 50px;
   font-size: 60px;
   text-transform: uppercase;
-  font-weight: 500;
+  font-weight: 300;
 }
 
 .work-title {
@@ -51,7 +51,6 @@
   width: 100%;
   height: auto;
   flex-flow: wrap;
-  padding-top: 20px;
   padding-bottom: 20px;
 }
 
@@ -111,7 +110,7 @@
 /* POLAR */
 
 .polar:hover:after {
-  content: "Design, implement, and spearhead the automation process of Polar’s site preview product using Python (Django), reducing workflow process duration from 2 hours to 10 minutes \a \a Build high quality, scalable, and responsive native advertisments and demo sites for publisher clients using HTML/CSS, Javascript, JQuery, and Polar API \a \a Other tools: \a MySQL, Git";
+  content: "Design, implement, and spearhead the automation process of Polar’s site preview product using Python (Django), reducing workflow process duration from 2 hours to 10 minutes \a \a Build high quality, scalable, and responsive native advertisments and demo sites for publisher clients using HTML/CSS, Javascript, JQuery, and Polar API \a \a Other tools: MySQL, Git";
 }
 
 .polar .work-title {
