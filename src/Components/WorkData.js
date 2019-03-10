@@ -17,7 +17,7 @@ const WorkData = [
     descOne:
       "Perform aggregation of KPIs across assigned technology portfolios, and present key performance metrics, issues, and risks to CIO and lead technology officers",
     descTwo:
-      "Improve reporting accuracy, efficiency, and data quality, using advanced Excel features (VBA, macros, pivot tables, vlookup), <b>reducing QA time by 90%",
+      "Improve reporting accuracy, efficiency, and data quality, using advanced Excel features (VBA, macros, pivot tables, vlookup), reducing QA time by 90%",
     descThree: "Other tools: VBA, Excel (Macros), SharePoint, TIBCO Spotfire"
   },
   {
