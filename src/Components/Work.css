@@ -8,7 +8,14 @@
   background: #f7f7f7 !important;
   color: black;
   font-family: "Open Sans", sans-serif;
-  padding-bottom: 20px;
+  text-align: center;
+  margin: 20px;
+  font-size: 20px;
+  border: 5px solid rgba(100, 26, 16, 0.6);
+  border-radius: 0.5cm;
+  margin-bottom: 40px;
+  height: 300px;
+  width: 32%;
 }
 
 .work-header {
@@ -19,19 +26,19 @@
   font-weight: 300;
 }
 
+.work-loc {
+  padding-top: 80px;
+  font-family: "Catamaran", sans-serif;
+  font-weight: 700;
+  font-size: 45px;
+}
+
 .work-title {
   padding-top: 30px;
   padding-bottom: 30px;
   font-family: "Catamaran", sans-serif;
   font-size: 24px;
   font-weight: 400;
-}
-
-.work-loc {
-  padding-top: 80px;
-  font-family: "Catamaran", sans-serif;
-  font-weight: 700;
-  font-size: 45px;
 }
 
 #work-subheader {
@@ -41,104 +48,42 @@
   font-size: 20px;
 }
 
-.work-desc {
-  display: none;
-}
-
-.flex-container-work {
+#small-work-components {
   display: flex;
   flex-direction: row;
   width: 100%;
-  height: auto;
-  flex-flow: wrap;
-  padding-bottom: 20px;
 }
 
-.inner-flex-container {
-  margin-top: 0px !important;
-}
-
-.flex-container-work .work-block {
+.work-desc {
+  padding: 20px 20px 20px 10px;
+  font-size: 14px;
   text-align: center;
-  flex: 1;
-  margin: 20px;
-  font-size: 20px;
-  border: 5px solid rgba(100, 26, 16, 0.6);
-  border-radius: 0.5cm;
-  margin-bottom: 10px;
-  height: 300px;
-}
-
-.inner-flex {
-  display: flex;
-  flex-direction: column;
-}
-
-.work-block:hover {
-  background: rgba(0, 0, 0, 0.6);
-  font-size: 0px;
-  color: white;
-  padding: 20px;
-  border: none;
-  display: flex;
-}
-
-.work-block:hover:after {
-  text-align: center;
-  font-size: 17px;
   line-height: 25px;
   margin: auto;
 }
 
-.work-block:after {
-  white-space: pre-wrap;
-  font-size: 17px;
-  font-family: "Catamaran", sans-serif;
-}
-
-.work-block:hover .work-title {
-  display: none;
-}
-
-.work-block:hover .work-loc {
-  display: none;
-}
-
-.work-block .work-title {
-  margin: 0;
-}
-/* POLAR */
-
-.polar:hover:after {
-  content: "Design, implement, and spearhead the automation process of Polar’s site preview product using Python (Django), reducing workflow process duration from 2 hours to 10 minutes \a \a Build high quality, scalable, and responsive native advertisments and demo sites for publisher clients using HTML/CSS, Javascript, JQuery, and Polar API \a \a Other tools: MySQL, Git";
-}
-
-.polar .work-title {
-  content: "Software Developer";
-}
-
-/* BMO */
-.bmo:hover:after {
-  content: "Perform aggregation of KPIs across assigned technology portfolios, and present key performance metrics, issues, and risks to CIO and lead technology officers \a \a Improve reporting accuracy, efficiency, and data quality, using advanced Excel features (VBA, macros, pivot tables, vlookup), reducing QA time by 90% \a \a Other tools: VBA, Excel (Macros), SharePoint, TIBCO Spotfire";
-}
-
-.bmo .work-title {
-  content: "Reporting Data Analyst";
-}
-
-/* AVIVA */
-.aviva:hover:after {
-  content: "Interview underwriters, business managers, and project managers to gather, assimilate and document pertinent information for the new Commercial Lines (CL) system (Real Time Gateway 2) \a \a Followed agile methodology on all projects and used JIRA for tracking and project managament - consistently met deadlines 1 week earlier \a \a Compared and integrated rating basis data from Lotus and SharePoint platforms";
-}
-
-.aviva .work-title {
-  content: "Business Analyst";
+.work li {
+  padding-bottom: 8px;
 }
 
 @media screen and (min-width: 375px) and (max-width: 412px) {
+  .work {
+    width: 90%;
+    height: auto;
+  }
+
   .work-header {
     font-size: 35px;
     padding: 35px 5px 0 5px;
+  }
+
+  #work-subheader {
+    display: none;
+  }
+
+  #small-work-components {
+    display: block;
+    padding-bottom: 1px;
   }
 
   .work-loc {
@@ -148,51 +93,25 @@
   }
 
   .work-title {
-    font-size: 22px;
+    font-size: 20px;
+    margin-top: 0px;
     padding-top: 10px;
     padding-bottom: 10px;
   }
 
-  .bmo .work-title {
-    margin-bottom: 0;
+  .work-desc {
+    padding: 0;
+    font-size: 12px;
+    display: block !important;
   }
 
-  .work-desc {
-    font-size: 12px;
-    padding: 10px;
+  .work-desc ul {
+    padding-left: 28px;
   }
 
   .work-desc li {
     text-align: left;
-    padding-left: 10px;
-    padding-bottom: 10px;
-  }
-
-  .work-desc ul li b {
-    font-weight: 600;
-  }
-
-  .work-desc p {
-    padding-bottom: 5px;
-  }
-
-  .flex-container-work .work-block {
-    flex: none;
-    width: 90%;
-    height: auto;
-  }
-
-  .flex-container-work {
-    padding-top: 0;
-  }
-
-  .work-mobile #work-subheader {
-    display: none;
-  }
-
-  .work-mobile .work-desc {
-    display: block;
-    font-size: 12px;
+    padding: 0 10px 10px 10px;
   }
 }
 

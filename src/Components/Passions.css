@@ -63,6 +63,7 @@ body {
 @media screen and (min-width: 375px) and (max-width: 412px) {
   .flex-container-passions {
     flex-flow: wrap;
+    padding-bottom: 30px;
   }
 
   .passions-title {
