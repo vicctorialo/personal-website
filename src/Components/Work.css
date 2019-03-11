@@ -117,10 +117,7 @@
 
 /* FOR LARGER DESKTOPS */
 @media screen and (min-width: 1600px) {
-  .work-block:hover:after {
-    text-align: center;
-    font-size: 20px;
-    line-height: 25px;
-    margin: auto;
+  .work-desc {
+    padding: 50px 20px 0 20px;
   }
 }
