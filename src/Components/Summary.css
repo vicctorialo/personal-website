@@ -1,8 +1,17 @@
 @import url("https://fonts.googleapis.com/css?family=Ubuntu:300,400");
 
+#small-summary-components {
+  display: flex;
+  flex-direction: row;
+  flex-flow: wrap;
+  padding: 30px 15px 0 25px;
+}
+
 .summary {
   background: white;
   padding-bottom: 50px;
+  width: 25%;
+  padding-right: 20px;
 }
 
 #why-me {
@@ -14,30 +23,16 @@
   font-weight: 300;
 }
 
-.flex-container-summ {
-  display: flex;
-  flex-direction: row;
-  width: 100%;
-  height: auto;
-  justify-content: space-around;
-  flex-flow: wrap;
-  padding-top: 20px;
-  padding-bottom: 40px;
-}
-
 .summary-point {
-  width: 23%;
-  height: auto;
-  box-sizing: border-box;
+  padding-left: 10px;
 }
 
 .summary-point p {
   float: right;
   width: 200px;
-  padding-left: 5%;
+  padding-left: 4%;
   padding-top: 40px;
   font-size: 15px;
-  font-family: "Ubuntu", sans-serif;
 }
 
 .summary-point .summary-icon {
@@ -48,7 +43,6 @@
   border-radius: 50%;
   border: 5px solid rgba(100, 26, 16, 0.6);
   float: left;
-  margin-left: 10px;
 }
 
 .fa-book-reader,
@@ -69,59 +63,29 @@
 }
 
 @media screen and (min-width: 375px) and (max-width: 412px) {
+  #small-summary-components {
+    display: flex;
+    flex-direction: column;
+  }
+
   .summary {
-    padding-bottom: 35px;
-  }
-
-  #why-me {
-    font-size: 35px;
-    padding-top: 35px;
-  }
-
-  .flex-container-summ {
-    padding-top: 0;
-    padding-bottom: 0;
-  }
-
-  .summary-point {
-    width: 100%;
-  }
-
-  .summary-point .summary-icon {
-    width: 100px;
-    height: 100px;
-    margin: 10px 0 10px 45px;
-  }
-
-  .fa-book-reader:before,
-  .fa-laptop-code:before,
-  .fa-briefcase:before,
-  .fa-users:before,
-  .fa-lightbulb:before,
-  .fa-glasses:before,
-  .fa-star:before,
-  .fa-comments:before {
-    position: absolute;
-    top: 30%;
-    left: 50%;
-    height: 50%;
-    transform: translate(-50%, -50%);
-    display: block;
-    color: rgba(100, 26, 16, 0.6);
-    font-size: 40px;
+    width: auto;
   }
 
   .summary-point p {
-    padding-left: 15px;
-    width: 220px;
-    padding-right: 20px;
+    width: 160px;
+    padding-top: 30px;
+  }
+
+  .summary-point .summary-icon {
+    padding-left: 0;
   }
 }
 
 /* FOR LARGER DESKTOPS */
 @media screen and (min-width: 1600px) {
-  .summary-point {
-    width: 20%;
+  .summary-point p {
+    width: 275px;
   }
 
   .summary-point .summary-icon {
