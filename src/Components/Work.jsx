@@ -2,8 +2,8 @@ import React, { Component } from "react";
 import "./Work.css";
 
 class Work extends Component {
-  constructor() {
-    super();
+  constructor(props) {
+    super(props);
     this.state = {
       hover: false
     };
