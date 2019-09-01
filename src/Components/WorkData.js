@@ -1,6 +1,17 @@
 const WorkData = [
   {
     id: 1,
+    company: "CryptoNumerics",
+    title: "Full-Stack Developer",
+    descOne:
+      "Design and implement the REST API for CryptoNumerics' core product to analyze and protect sensitive datasets using Java",
+    descTwo:
+      "Build out key API features such as automatic API documentation and generation, and schema enforcement and validation, decreasing manual work by 20%",
+    descThree:
+      "Improve the company website's Search Engine Optimization (SEO) by decreasing page load speeds from 6s to 2s"
+  },
+  {
+    id: 2,
     company: "Polar",
     title: "Software Developer",
     descOne:
@@ -11,7 +22,7 @@ const WorkData = [
       "Meet with Product, Engineering, and Sales department teams to optimize product implementations "
   },
   {
-    id: 2,
+    id: 3,
     company: "BMO",
     title: "Reporting Data Analyst",
     descOne:
@@ -19,17 +30,6 @@ const WorkData = [
     descTwo:
       "Improve reporting accuracy, efficiency, and data quality, using advanced Excel features (VBA, macros, pivot tables, vlookup), reducing QA time by 90%",
     descThree: "Other tools: VBA, Excel (Macros), SharePoint, TIBCO Spotfire"
-  },
-  {
-    id: 3,
-    company: "Aviva",
-    title: "Business Analyst",
-    descOne:
-      " Interview underwriters, business managers, and project managers to gather, assimilate and document pertinent information for the new Commercial Lines (CL) system (RealTime Gateway 2)",
-    descTwo:
-      " Followed agile methodology on all projects and used JIRA for tracking and project managament - consistently met deadlines 1 week earlier",
-    descThree:
-      " Compared and integrated rating basis data from Lotus and SharePoint platforms"
   }
 ];
 export default WorkData;
