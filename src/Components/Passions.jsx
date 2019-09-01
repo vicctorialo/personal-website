@@ -33,7 +33,7 @@ class Passions extends Component {
               <p>
                 I'd like to consider myself an adventurous person. I love to try
                 different foods and experience different cultures and ways of
-                life. I'll be backpacking across Europe this winter!.
+                life. I'll be backpacking across Europe this winter!
               </p>
             </div>
           </div>
