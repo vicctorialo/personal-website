@@ -17,7 +17,7 @@ class Ecs extends Component {
               undergraduate women who are passionate about technology. As a
               Fellow, I have the opportunity to participate in tech workshops
               led by fellow members, explore different areas of tech such as
-              Product management, Fintech, Virtual Reality, and Web/Mobile
+              Product Management, Fintech, Virtual Reality, and Web/Mobile
               Development, and connect with like-minded individuals all over
               North America.
             </p>
@@ -37,14 +37,14 @@ class Ecs extends Component {
             <div id="ms-image" />
           </div>
           <div className="ecs-context context-math">
-            <h1> Mathematics Society - MathBall Executive Team</h1>
+            <h1> Head Math Orientation Leader - 2019</h1>
             <p>
-              MathBall is a formal event organized by students of the math
-              faculty, and is open to all students at the University of
-              Waterloo. I am one of 3 members on the Internal Team, and my
-              responsibilities include dealing with financials and logistics of
-              the event, and co-ordinating with all other teams to ensure it is
-              successful and enjoyable.
+              As a Head Leader for the incoming first year students, some of my
+              responsibilities include making sure that students have an
+              enjoyable Orientation experience, ensuring the safety of students
+              (using my First Aid certification), and co-ordinating with other
+              leaders and facutly members at the university to carry out events
+              and activities.
             </p>
           </div>
         </div>
